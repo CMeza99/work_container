@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -eux
+
+vdms-kill
+
+openconnect --pid-file /run/vdms-vpn vdmsgw.ccb.edgecastcdn.net
